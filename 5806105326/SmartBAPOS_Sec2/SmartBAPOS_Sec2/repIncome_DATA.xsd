@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ReportTitle" targetNamespace="http://tempuri.org/ReportTitle.xsd" xmlns:mstns="http://tempuri.org/ReportTitle.xsd" xmlns="http://tempuri.org/ReportTitle.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ReportTitle" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ReportTitle" msprop:Generator_UserDSName="ReportTitle">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PosID" msprop:Generator_ColumnVarNameInTable="columnPosID" msprop:Generator_ColumnPropNameInRow="PosID" msprop:Generator_ColumnPropNameInTable="PosIDColumn" msprop:Generator_UserColumnName="PosID" type="xs:string" minOccurs="0" />
+              <xs:element name="PosDate" msprop:Generator_ColumnVarNameInTable="columnPosDate" msprop:Generator_ColumnPropNameInRow="PosDate" msprop:Generator_ColumnPropNameInTable="PosDateColumn" msprop:Generator_UserColumnName="PosDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PosTotal" msprop:Generator_ColumnVarNameInTable="columnPosTotal" msprop:Generator_ColumnPropNameInRow="PosTotal" msprop:Generator_ColumnPropNameInTable="PosTotalColumn" msprop:Generator_UserColumnName="PosTotal" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PosDisc" msprop:Generator_ColumnVarNameInTable="columnPosDisc" msprop:Generator_ColumnPropNameInRow="PosDisc" msprop:Generator_ColumnPropNameInTable="PosDiscColumn" msprop:Generator_UserColumnName="PosDisc" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PosNet" msprop:Generator_ColumnVarNameInTable="columnPosNet" msprop:Generator_ColumnPropNameInRow="PosNet" msprop:Generator_ColumnPropNameInTable="PosNetColumn" msprop:Generator_UserColumnName="PosNet" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TiDetail" msprop:Generator_ColumnVarNameInTable="columnTiDetail" msprop:Generator_ColumnPropNameInRow="TiDetail" msprop:Generator_ColumnPropNameInTable="TiDetailColumn" msprop:Generator_UserColumnName="TiDetail" type="xs:string" minOccurs="0" />
+              <xs:element name="UsFirstName" msprop:Generator_ColumnVarNameInTable="columnUsFirstName" msprop:Generator_ColumnPropNameInRow="UsFirstName" msprop:Generator_ColumnPropNameInTable="UsFirstNameColumn" msprop:Generator_UserColumnName="UsFirstName" type="xs:string" minOccurs="0" />
+              <xs:element name="UsLastName" msprop:Generator_ColumnVarNameInTable="columnUsLastName" msprop:Generator_ColumnPropNameInRow="UsLastName" msprop:Generator_ColumnPropNameInTable="UsLastNameColumn" msprop:Generator_UserColumnName="UsLastName" type="xs:string" minOccurs="0" />
+              <xs:element name="UsID" msprop:Generator_ColumnVarNameInTable="columnUsID" msprop:Generator_ColumnPropNameInRow="UsID" msprop:Generator_ColumnPropNameInTable="UsIDColumn" msprop:Generator_UserColumnName="UsID" type="xs:string" minOccurs="0" />
+              <xs:element name="PsDetail" msprop:Generator_ColumnVarNameInTable="columnPsDetail" msprop:Generator_ColumnPropNameInRow="PsDetail" msprop:Generator_ColumnPropNameInTable="PsDetailColumn" msprop:Generator_UserColumnName="PsDetail" type="xs:string" minOccurs="0" />
+              <xs:element name="PsLevel" msprop:Generator_ColumnVarNameInTable="columnPsLevel" msprop:Generator_ColumnPropNameInRow="PsLevel" msprop:Generator_ColumnPropNameInTable="PsLevelColumn" msprop:Generator_UserColumnName="PsLevel" type="xs:string" minOccurs="0" />
+              <xs:element name="ProID" msprop:Generator_ColumnVarNameInTable="columnProID" msprop:Generator_ColumnPropNameInRow="ProID" msprop:Generator_ColumnPropNameInTable="ProIDColumn" msprop:Generator_UserColumnName="ProID" type="xs:string" minOccurs="0" />
+              <xs:element name="ProName" msprop:Generator_ColumnVarNameInTable="columnProName" msprop:Generator_ColumnPropNameInRow="ProName" msprop:Generator_ColumnPropNameInTable="ProNameColumn" msprop:Generator_UserColumnName="ProName" type="xs:string" minOccurs="0" />
+              <xs:element name="PtDetail" msprop:Generator_ColumnVarNameInTable="columnPtDetail" msprop:Generator_ColumnPropNameInRow="PtDetail" msprop:Generator_ColumnPropNameInTable="PtDetailColumn" msprop:Generator_UserColumnName="PtDetail" type="xs:string" minOccurs="0" />
+              <xs:element name="PostPrice" msprop:Generator_ColumnVarNameInTable="columnPostPrice" msprop:Generator_ColumnPropNameInRow="PostPrice" msprop:Generator_ColumnPropNameInTable="PostPriceColumn" msprop:Generator_UserColumnName="PostPrice" type="xs:decimal" minOccurs="0" />
+              <xs:element name="UnDetail" msprop:Generator_ColumnVarNameInTable="columnUnDetail" msprop:Generator_ColumnPropNameInRow="UnDetail" msprop:Generator_ColumnPropNameInTable="UnDetailColumn" msprop:Generator_UserColumnName="UnDetail" type="xs:string" minOccurs="0" />
+              <xs:element name="PostNum" msprop:Generator_ColumnVarNameInTable="columnPostNum" msprop:Generator_ColumnPropNameInRow="PostNum" msprop:Generator_ColumnPropNameInTable="PostNumColumn" msprop:Generator_UserColumnName="PostNum" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PostTotal" msprop:Generator_ColumnVarNameInTable="columnPostTotal" msprop:Generator_ColumnPropNameInRow="PostTotal" msprop:Generator_ColumnPropNameInTable="PostTotalColumn" msprop:Generator_UserColumnName="PostTotal" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
